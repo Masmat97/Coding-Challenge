@@ -1,0 +1,66 @@
+body{
+  background-image:url(background.jpg);
+  background-size: cover;
+  color:white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header{
+  text-align: center;
+}
+
+nav{
+  text-align: center;
+  background-color: lime;
+  height: 30px;
+  padding: 15px;
+}
+
+main{
+  text-align: left;
+  margin-left:40px;
+}
+
+.ratio-box{
+  background-color: #000;
+  color: #fff;
+  opacity: .6;
+  height: 675px;
+  width: 1000px;
+}
+
+.logo{
+  display: inline-block;
+  width:250px;
+  padding-top: 70px;
+}
+
+.titolo{
+  color: lime;
+  font-size:30px;
+}
+
+.oggetto{
+  font-size:25px;
+  color: white;
+}
+
+.orange{
+  background-color: orange;
+  max-width: 400px;
+  height: 25px;
+}
+
+.lime{
+  background-color: lime;
+  max-width: 550px;
+  height: 25px;
+}
+
+.red{
+  background-color: red;
+  max-width: 150px;
+  height: 25px;
+}
